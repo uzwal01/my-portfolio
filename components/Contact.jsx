@@ -105,6 +105,7 @@ const Contact = () => {
                         className="border-2 rounded-lg p-3 flex border-gray-300"
                         type="text"
                         name="phone"
+                        required
                       />
                     </div>
                   </div>
@@ -123,6 +124,7 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="subject"
+                      required
                     />
                   </div>
                   <div className="flex flex-col py-2">

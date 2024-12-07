@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import portfolioImg from '/public/assets/projects/portfolio.png'
+// import portfolioImg from '/public/assets/projects/portfolio.png'
 import {RiRadioButtonFill} from "react-icons/ri"
 import Link from 'next/link'
 const portfolio = () => {
@@ -9,7 +9,7 @@ const portfolio = () => {
       <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
             <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'>
-                <Image className='absolute z-10' layout='fill' src={portfolioImg} alt="/" />
+                {/* <Image className='absolute z-1' layout='fill' objectFit='cover' src={portfolioImg} alt="/" />  ------------------------ to add an image */}
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 text-white'>
                     <h2>Portfolio Website</h2>
                     <h3>React/Next JS / Tailwind </h3>
@@ -22,8 +22,14 @@ const portfolio = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>Developed a responsive and interactive personal portfolio website using Next.js and Tailwind CSS. The site features smooth scrolling, dynamic routing, and an intuitive navigation menu. It highlights personal projects, skills, and contact details, demonstrating proficiency in modern web development frameworks and design principles.</p>
+                    <Link href="https://uzwal-portfolio.vercel.app" target="_blank"
+                      rel="noopener noreferrer">
                     <button className='px-8 py-2 mt-4 mr-8 rounded-lg text-gray-100 hover:bg-gradient-to-l from-[#FFA726] to-[#FF7043]'>Demo</button>
+                    </Link>
+                    <Link href="https://github.com/uzwal01/my-portfolio" target="_blank"
+                      rel="noopener noreferrer">
                     <button className='px-8 py-2 mt-4 rounded-lg text-gray-100 hover:bg-gradient-to-l from-[#FFA726] to-[#FF7043]'>Code</button>
+                    </Link>
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className="p-2">
@@ -32,7 +38,7 @@ const portfolio = () => {
                             <p className='text-gray-600 py-2 items-center flex'><RiRadioButtonFill className='pr-1'/>React/Next</p>
                             <p className='text-gray-600 py-2 items-center flex'><RiRadioButtonFill className='pr-1'/>Tailwind</p>
                             <p className='text-gray-600 py-2 items-center flex'><RiRadioButtonFill className='pr-1'/>JavaScript</p>
-                            <p className='text-gray-600 py-2 items-center flex'><RiRadioButtonFill className='pr-1'/></p>
+                            {/* <p className='text-gray-600 py-2 items-center flex'><RiRadioButtonFill className='pr-1'/></p> */}
                         </div>
                     </div>
                 </div>
