@@ -37,9 +37,9 @@ const Main = () => {
                 </div>
                  </a>
                 
-                <a href="" target='_blank' rel="noopener noreferrer" >
-                <div className="rounded-full shadow-lg shadeo-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <BsFillPersonLinesFill className="text-[#FF7043]"/>
+                <a href="/assets/resume/CV-resume.pdf" download="Ujjwal_Duwal_CV-resume.pdf" target='_blank' rel="noopener noreferrer" >
+                <div className="rounded-full shadow-lg shadeo-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#FF7043]">
+                  <BsFillPersonLinesFill className="text-white"/>
                 </div> 
                 </a>
                 

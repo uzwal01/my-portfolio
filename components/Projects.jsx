@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import todoImg from "../public/assets/projects/Todo.png";
+import portfolioImg from "../public/assets/projects/portfolio.png";
 import ProjectItem from "./ProjectItem";
 
 
@@ -21,7 +22,7 @@ const Projects = () => {
             />
             <ProjectItem
               title="My Protfolio"
-              backgroundImg={todoImg}
+              backgroundImg={portfolioImg}
               projectUrl="/my-portfolio"
             />
             {/* <ProjectItem

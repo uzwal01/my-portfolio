@@ -54,7 +54,7 @@ const Navbar = () => {
         className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}
       >
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-          <Link href="/">
+          <Link href="/#home">
             <Image
               className="cursor-pointer"
               src="/assets/logo.png" // Corrected path
@@ -67,7 +67,7 @@ const Navbar = () => {
           {/* ...................MENU-LIST..................... */}
           <div>
             <ul style={{ color: linkColor }} className="hidden md:flex">
-              <Link href="/">
+              <Link href="/#home">
                 <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
               </Link>
               <Link href="/#about">
@@ -100,7 +100,7 @@ const Navbar = () => {
           >
             <div>
               <div className="flex justify-between items-center w-full">
-                <Link href="/">
+                <Link href="/#home">
                   <Image src="/assets/logo.png" width={87} height={35} alt="/" />
                 </Link>
                 <div onClick={handleNav} className="rounded-full p-3 shadow-lg shadow-gray-400 cursor-pointer">
@@ -114,7 +114,7 @@ const Navbar = () => {
 
             <div>
               <ul className="py-4 flex-col">
-                <Link href="/">
+                <Link href="/#home">
                   <li onClick={() => setNav(false)} className="py-4 text-sm uppercase hover:border-b">
                     Home
                   </li>
