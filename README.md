@@ -1,4 +1,5 @@
-🚀 Ujjwal Duwal - Portfolio Website
+**🚀 Ujjwal Duwal - Portfolio Website**
+
 Welcome to the repository for my personal portfolio website! This project showcases my skills, projects, and experiences as a developer.
 
 🌐 Live Demo
@@ -22,16 +23,16 @@ This portfolio website serves as a platform to:
 
 
 ✨ Key Features
-**Responsive Design:** The site is fully responsive and adapts to all screen sizes.
+  **Responsive Design:** The site is fully responsive and adapts to all screen sizes.
 
-**Smooth Navigation:** Smooth scrolling between sections for a seamless user experience.
+  **Smooth Navigation:** Smooth scrolling between sections for a seamless user experience.
 
-**Projects Showcase:** Details of my recent projects with links to GitHub repositories.
+  **Projects Showcase:** Details of my recent projects with links to GitHub repositories.
 
-**Skills Section:** Highlighting my technical stack and expertise.
+  **Skills Section:** Highlighting my technical stack and expertise.
 
-**Contact Form:** Visitors can send me a message directly.
+  **Contact Form:** Visitors can send me a message directly.
 
-**Downloadable Resume:** A button to download my CV in PDF format.
+  **Downloadable Resume:** A button to download my CV in PDF format.
 
 
