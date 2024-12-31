@@ -3,6 +3,7 @@ import React from "react";
 import todoImg from "../public/assets/projects/Todo.png";
 import portfolioImg from "../public/assets/projects/portfolio.png";
 import ProjectItem from "./ProjectItem";
+import FoodApp from "../public/assets/projects/food-app.png"
 
 
 const Projects = () => {
@@ -25,12 +26,12 @@ const Projects = () => {
               backgroundImg={portfolioImg}
               projectUrl="/my-portfolio"
             />
-            {/* <ProjectItem
-              title="To-Do List App"
-              backgroundImg={todoImg}
-              projectUrl="/...."
-            />
             <ProjectItem
+              title="A Food Delivery App"
+              backgroundImg={FoodApp}
+              projectUrl="/food-app"
+            />
+            {/* <ProjectItem
               title="To-Do List App"
               backgroundImg={todoImg}
               projectUrl="/...."
