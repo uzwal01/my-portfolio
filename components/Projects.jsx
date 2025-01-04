@@ -4,6 +4,7 @@ import todoImg from "../public/assets/projects/Todo.png";
 import portfolioImg from "../public/assets/projects/portfolio.png";
 import ProjectItem from "./ProjectItem";
 import FoodApp from "../public/assets/projects/food-app.png"
+import weatherImg from "/public/assets/projects/weather.png";
 
 
 const Projects = () => {
@@ -31,11 +32,11 @@ const Projects = () => {
               backgroundImg={FoodApp}
               projectUrl="/food-app"
             />
-            {/* <ProjectItem
-              title="To-Do List App"
-              backgroundImg={todoImg}
-              projectUrl="/...."
-            /> */}
+            <ProjectItem
+              title="Weather App"
+              backgroundImg={weatherImg}
+              projectUrl="/weather-app"
+            />
           </div>
         </div>
       </section>

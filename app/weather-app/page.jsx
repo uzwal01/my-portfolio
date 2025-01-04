@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import todoImg from "/public/assets/projects/Todo.png";
+import weatherImg from "/public/assets/projects/weather.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import Navbar from "@/components/Navbar";
+// import Navbar from "@/components/Navbar";
 const Todo = () => {
   return (
     <>
@@ -14,12 +14,12 @@ const Todo = () => {
               className="absolute z-1"
               layout="fill"
               objectFit="cover"
-              src={todoImg}
+              src={weatherImg}
               alt="/"
             />
             <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 text-white">
               <h2>To-Do-List App</h2>
-              <h3>React JS / Tailwind / Local Storage</h3>
+              <h3>React JS / OpenWeatherMap API</h3>
             </div>
           </div>
         </div>
@@ -28,15 +28,14 @@ const Todo = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              A responsive and user-friendly task management application built
-              with React.js. It allows users to add, mark as complete, and
-              delete tasks with data persistence using localStorage. The app
-              features a clean and intuitive interface, making it perfect for
-              organizing daily activities. Let me know if you'd like to add any
-              unique features or a specific focus!
+              A simple live weather application built using React.js that
+              fetches real-time weather data for different places worldwide. The
+              app leverages the OpenWeatherMap API to provide current weather
+              information, including temperature, humidity, wind speed, and
+              more.
             </p>
             <Link
-              href="https://to-do-list-app-five-mu.vercel.app/"
+              href="https://weather-app-react-taupe-three.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,7 +44,7 @@ const Todo = () => {
               </button>
             </Link>
             <Link
-              href="https://github.com/uzwal01/To-Do-List-App"
+              href="https://github.com/uzwal01/weather-app-react"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -60,11 +59,7 @@ const Todo = () => {
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 py-2 items-center flex">
                   <RiRadioButtonFill className="pr-1" />
-                  React
-                </p>
-                <p className="text-gray-600 py-2 items-center flex">
-                  <RiRadioButtonFill className="pr-1" />
-                  Tailwind
+                  React Js
                 </p>
                 <p className="text-gray-600 py-2 items-center flex">
                   <RiRadioButtonFill className="pr-1" />
@@ -72,7 +67,11 @@ const Todo = () => {
                 </p>
                 <p className="text-gray-600 py-2 items-center flex">
                   <RiRadioButtonFill className="pr-1" />
-                  Local Storage
+                  OpenWeatherMap API
+                </p>
+                <p className="text-gray-600 py-2 items-center flex">
+                  <RiRadioButtonFill className="pr-1" />
+                  Axios Package
                 </p>
               </div>
             </div>
