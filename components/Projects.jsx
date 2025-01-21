@@ -3,9 +3,9 @@ import React from "react";
 import todoImg from "../public/assets/projects/Todo.png";
 import portfolioImg from "../public/assets/projects/portfolio.png";
 import ProjectItem from "./ProjectItem";
-import FoodApp from "../public/assets/projects/food-app.png"
+import FoodApp from "../public/assets/projects/food-app.png";
 import weatherImg from "/public/assets/projects/weather.png";
-
+import IMDbCloneImg from "../public/assets/projects/IMDb-Clone.png";
 
 const Projects = () => {
   return (
@@ -36,6 +36,11 @@ const Projects = () => {
               title="Weather App"
               backgroundImg={weatherImg}
               projectUrl="/weather-app"
+            />
+            <ProjectItem
+              title="IMDb Clone App"
+              backgroundImg={IMDbCloneImg}
+              projectUrl="/imdb-clone-app"
             />
           </div>
         </div>
